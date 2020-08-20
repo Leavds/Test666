@@ -57,5 +57,7 @@
                 android:layout_gravity="bottom"
                 android:background="#ff0000" />
         </LinearLayout>
+
     </LinearLayout>
+
 </FrameLayout>
