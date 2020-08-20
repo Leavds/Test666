@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                     contentView.removeView(inflate);
                     contentView.addView(inflate);
                     inflate.setVisibility(View.VISIBLE);
+                    EditText ed1 = inflate.findViewById(R.id.ed1);
+                    ed1.requestFocus();
             }
 
             @Override
